@@ -6,8 +6,8 @@ def CalcularMassa(formula):
     return Substance.from_formula(formula).mass
   except:
     return None
-st.title(Calculadora de Massa Molar)
-st.write(Digite a fórmula para ver o resultado!)
+st.title("Calculadora de Massa Molar")
+st.write("Digite a fórmula para ver o resultado!")
 
 while True:
   entrada = st.text_input("\nDigite a fórmula (ou sair para encerrar o programa: ")
